@@ -1,0 +1,77 @@
+/* Universal Selector */
+* {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, #071952, #000033);
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+}
+
+/* Banner Styling */
+.banner {
+    background: linear-gradient(to right, purple, coral);
+    padding: 35px;
+    color: white;
+}
+
+h1 {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+/* Fun Fact Card */
+.fact-card {
+    background-color: #172554;
+    width: 350px;
+    margin: 50px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #6366f1;
+}
+
+h2 {
+    color: #ffd700;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Twinkling Star */
+.star {
+    width: 25px;
+    height: 25px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin: 30px auto;
+
+    animation: twinkle 1s infinite alternate;
+}
+
+/* Star Animation */
+@keyframes twinkle {
+    from {
+        background-color: yellow;
+        box-shadow: 0 0 5px yellow;
+        opacity: 0.4;
+    }
+
+    to {
+        background-color: white;
+        box-shadow: 0 0 25px white;
+        opacity: 1;
+    }
+}
+
+/* Footer Styling */
+.footer {
+    color: #ffd700;
+    font-weight: bold;
+}
